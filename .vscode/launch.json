@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "build//${workspaceFolderBasename}.elf",
+            "name": "OpeonOCD(NuLink) M032SE3AE",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            
+            "configFiles": [
+                "C://Program Files (x86)//Nuvoton Tools//OpenOCD//scripts//interface//nulink.cfg",
+                "C://Program Files (x86)//Nuvoton Tools//OpenOCD//scripts//target//numicroM0.cfg"
+            ],
+            "serverpath": "C://Program Files (x86)//Nuvoton Tools//OpenOCD//bin//openocd.exe",
+            "armToolchainPath": "C://Program Files (x86)//GNU Arm Embedded Toolchain//10 2021.10//bin",
+            "interface": "swd",
+            "serialNumber": "",
+            "runToEntryPoint": "main",
+            "device": "M032SE3AE", 
+            "svdFile": "${workspaceRoot}//target//M031AE_v1.svd",
+            "showDevDebugOutput": "raw",
+        }
+    ]
+}

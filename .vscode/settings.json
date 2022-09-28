@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "numicro.h": "c",
+        "m031series.h": "c",
+        "stdlib.h": "c",
+        "system_m031series.h": "c",
+        "core_cm0.h": "c",
+        "main.h": "c"
+    }
+}
