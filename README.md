@@ -1,5 +1,12 @@
 # Open Source ARM Development Environment for Nuvoton NuMicro M032
 
+* GNU Arm Embedded Toolchain
+* CMake
+* Cortex Debug
+* OpenOCD
+
+Build, Download and Debug!
+
 ## Getting Started
 
 For all about the project you must visit my website :)
